@@ -11,6 +11,7 @@ import { ListOptions } from "./list-options";
 
 interface ListHeaderProps {
     data: List;
+    onAddCard: () => void;
 }
 
 

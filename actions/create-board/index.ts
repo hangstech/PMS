@@ -80,11 +80,11 @@ console.log('create-board-1')
 
 
     } catch (error) {
-        console.log(error)
-        // return {
-        //     // error: "Failed to create."
+        // console.log(error)
+        return {
+            error: "Failed to create."
             
-        // }
+        }
         
     }
     revalidatePath(`/board/${board.id}`);

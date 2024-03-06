@@ -6,7 +6,7 @@ import { auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
-import { MAX_FREE_BOARDS } from "@/constants/boards"; 
+
 import { getAvailableCount } from "@/lib/org-limit";
 
 
