@@ -1,5 +1,5 @@
 export const siteConfig = {
-    name: "Hi",
-    description: "Is Me !!"
+    name: "PMS",
+    description: "Is PMS"
 
 }
